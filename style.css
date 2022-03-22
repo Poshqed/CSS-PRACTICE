@@ -1,0 +1,89 @@
+
+li {
+    list-style: none;
+    display: inline;
+    float: left;
+    
+  }
+a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 15px 20px 11px 20px;
+  margin: 0;
+  height: 100%;
+  transition: 1s;
+  
+}
+div.header {
+            background-color: rgb(51, 45, 45);
+            width: 100%;
+            height: 45px;
+            display:inline-block;
+            position: fixed;
+            top: 0;
+          }
+
+a.active {
+          background-color: red;
+      
+        }
+ a:hover {
+           background-color: black;
+}   
+ li.dropdown {
+  display: inline-block;
+  text-align: center;
+
+}
+
+.dropdown-content { 
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 80px;
+  padding: 14px 16px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin: 10px 0 0 0;
+  display: none;
+}
+.dropdown-content a {
+  color: red;
+    display: block;
+  }
+  .dropdown:hover
+  .dropdown-content {
+    display: block;
+  }
+
+  p::first-letter {
+    font-size: 50px;
+   padding-left: 30px;
+  }
+  p {
+    margin-top: 80px;}
+
+    input[type=text] {
+      width: 130px;
+      position: fixed;
+    margin-top: 50px;
+    float: right;
+    right: 0;
+  padding: 5px 0 5px 30px;
+background-image: url(search.png);
+background-position: 5px;
+background-repeat: no-repeat;
+background-size:20px;
+animation: sample 5s 3 2s alternate;
+}
+input[type=text]:focus {width: 200px;
+a
+} 
+
+@keyframes sample {
+  0%   {background-color:red; }
+  25%  {background-color:yellow;}
+  50%  {background-color:blue;}
+  75%  {background-color:green;}
+  100% {background-color:red;}
+}
